@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La deuda que el Estado no ve | Cero Aporte Mag</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body style="background-color: var(--warm-greige);">
+    <header>
+        <a href="index.html" class="brand-logo">Cero Aporte <span>Mag</span></a>
+        <nav><a href="index.html">Inicio</a></nav>
+    </header>
+
+    <main class="article-container">
+        <header class="article-header">
+            <h1>La deuda que el Estado no ve</h1>
+            <p class="bajada">El Estado creó un sistema para recibir a quienes no lograron terminar sus estudios, sin embargo, lleva años perdiendo recursos y estudiantes.</p>
+            <p class="autores">Por Sebastián Acevedo Méndez, Romina Medina Parraguez y Miguel Pino Salas.</p>
+        </header>
+
+        <article class="article-content">
+            <p>La educación tradicional en Chile se compone de años de esfuerzo acumulado por parte de los estudiantes que cada día llegan a sus salas de clases a sumar conocimientos que perduran por el resto de sus vidas.</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-year">2003</span>
+                    <p>Reforma Constitucional: escolaridad obligatoria conformada por doce años.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">2013</span>
+                    <p>Incorporación de kinder como nivel obligatorio, elevando a trece los años exigidos.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">2024</span>
+                    <p>Menor cifra de abandono escolar general, pero con una sombra: la caída en educación de adultos.</p>
+                </div>
+            </div>
+
+            <p>Al hito anterior, se le agrega que, en 2024 se registró la menor cifra de abandono escolar en nueve años. Pero el foco puesto en quienes están dentro del sistema ha dejado en la penumbra a quienes nunca pudieron estar.</p>
+
+            <h2>¿Quiénes los acogieron?</h2>
+            <p>
+                Para poder incorporarse a la enseñanza básica, se requiere tener un mínimo de 15 años, mientras que, para ingresar a la educación media se exigen una edad mínima de 17 años. 
+                <button class="highlight-btn" data-target="info-admision">Ver Requisitos de Admisión +</button>
+            </p>
+            <div id="info-admision" class="highlight-content">
+                <strong>No hay puntajes de corte, ni prueba de admisión:</strong> el alumno debe presentar certificado del último curso aprobado y su cédula de identidad para poder iniciar este proceso.
+            </div>
+
+            <p>Los CEIA, EPJA y otras distintas modalidades alcanzaron su máximo histórico de matriculados post pandemia en 2021 con 119.235 adultos. En 2024, la matrícula bajó a 101.325 personas.</p>
+
+            <div class="chart-container">
+                <canvas id="matriculaChart"></canvas>
+            </div>
+
+            <h2>Fallo en segundas oportunidades</h2>
+            <p>Detrás de cada cifra hay una historia de sacrificio y valentía. Una de ellas es la de María Yesenia Acuña Jiménez. Con 47 años, esta mujer se armó de valor para dar el gran salto que durante décadas había postergado.</p>
+
+            <h2>Un Estado desconectado</h2>
+            <p>"Nosotros por parte del gobierno solo recibimos la plata por alumno matriculado" afirma el director de la Escuela para Adultos Alberto Hurtado, Fabián Aguirre. El establecimiento no puede acceder a la Ley SEP ni al programa Pro-Retención para cubrir gastos en transportes.</p>
+            
+            <h2>Reactivación escolar insuficiente</h2>
+            <p>El Plan de Reactivación Educativa ha ido perdiendo fuerza. El Fondo de Reactivación Educativa cayó de $8.505 millones en 2025 a $5.618 millones en 2026, un recorte de más de 30%.</p>
+        </article>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
